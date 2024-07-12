@@ -1,8 +1,36 @@
-# React + Vite
+# Hackathon
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A basic application where teams can register for various code challenges. This project is built with React, Vite, Tailwind CSS for the frontend, and Node.js, Express, and MongoDB (with Mongoose) for the backend.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Team registration for multiple challenges
+- Simple and intuitive UI
+- Context API for state management
+- RESTful API backend
+
+## Tech Stack
+
+### Frontend
+
+- **React**: JavaScript library for building user interfaces
+- **Vite**: Next-generation front-end tooling
+- **Tailwind CSS**: Utility-first CSS framework
+- **Context API**: For state management
+
+### Backend
+
+- **Node.js**: JavaScript runtime
+- **Express**: Fast, unopinionated, minimalist web framework for Node.js
+- **MongoDB**: NoSQL database
+- **Mongoose**: Elegant MongoDB object modeling for Node.js
+
+## Links
+
+- **Backend Repository**: [GitHub Repo](https://github.com/nemashivam126/hackathon-backend)
+- **Deployed UI**: [Live Demo](https://teamhackathon.vercel.app/)
+
+## Contact
+For any queries, including requesting credentials for admin or further information, please feel free to reach out:
+- Email: nemashivam126@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/shivam-nema126)
