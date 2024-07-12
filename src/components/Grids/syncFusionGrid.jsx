@@ -28,7 +28,7 @@ function SyncfusionGrid() {
     useEffect(() => {
         async function fetchUpcomingChallenges() {
           try {
-            const response = await axios.get("http://localhost:5000/hackathon/upcoming-challenge");
+            const response = await axios.get("https://hackathon-backend-mu.vercel.app/hackathon/upcoming-challenge");
             setData(response.data.reverse());
           } catch (error) {
             console.error("Error fetching upcoming challenges:", error);
@@ -56,7 +56,7 @@ function SyncfusionGrid() {
     const handleRegisterConfirm = async() => {
         if (!cookies.challenge.includes(activeValue)) {
           try {
-            const response = await axios.put(`http://localhost:5000/hackathon/teams/${cookies.id}`, {
+            const response = await axios.put(`https://hackathon-backend-mu.vercel.app/hackathon/teams/${cookies.id}`, {
               activeChallenges: [activeValue]
             })
             // console.log("success", response.data);

@@ -61,7 +61,7 @@ function SignUp() {
   useEffect(() => {
     const getStacksList = async() => {
         try {
-            const response = await axios.get('http://localhost:5000/hackathon/stacks')
+            const response = await axios.get('https://hackathon-backend-mu.vercel.app/hackathon/stacks')
             setStack(response.data)
             return response
         } catch (error) {
@@ -176,7 +176,7 @@ function SignUp() {
       const handlePostData = async() => {
         try {
             setLoader(true)
-            const response = await axios.post('http://localhost:5000/hackathon/teams', signUpData);
+            const response = await axios.post('https://hackathon-backend-mu.vercel.app/hackathon/teams', signUpData);
             // window.alert("Team registered successfully")
             toast.success(`Team ${signUpData.name} registered successfully`)
             setCookies("id", response.data._id)

@@ -12,7 +12,7 @@ function ActiveChallenge() {
   useEffect(() => {
     async function fetchTeams() {
       try {
-        const response = await axios.get(`http://localhost:5000/hackathon/teams/${cookies.id}`);
+        const response = await axios.get(`https://hackathon-backend-mu.vercel.app/hackathon/teams/${cookies.id}`);
         setTeams(response.data);
         // console.log(response.data);
       } catch (error) {

@@ -11,7 +11,7 @@ function FullTeamGrid() {
   useEffect(() => {
     async function fetchTeams() {
       try {
-        const response = await axios.get(`http://localhost:5000/hackathon/teams`);
+        const response = await axios.get(`https://hackathon-backend-mu.vercel.app/hackathon/teams`);
         setTeams(response.data);
       } catch (error) {
         console.error("Error fetching teams:", error);
