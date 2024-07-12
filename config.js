@@ -1,0 +1,3 @@
+const KEY = 'Ngo9BigBOggjHTQxAR8/V1NBaF5cXmZCekx3WmFZfVpgcl9HZFZQQmYuP1ZhSXxXdkZhXH9YcXBUQGRUVUA='
+
+export {KEY};
